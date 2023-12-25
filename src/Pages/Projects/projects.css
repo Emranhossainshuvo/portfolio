@@ -1,0 +1,33 @@
+/* .text-outline {
+  color: transparent;
+  font-size: 150px;
+  -webkit-text-stroke: 1px #808080;
+} */
+
+/* Small devices (phones) */
+@media only screen and (max-width: 600px) {
+  .text-outline {
+    color: transparent;
+    font-size: 35px;
+    padding: 4px;
+    -webkit-text-stroke: 1px #808080;
+  }
+}
+
+/* Medium devices (tablets) */
+@media only screen and (min-width: 601px) and (max-width: 1024px) {
+  .text-outline {
+    color: transparent;
+    font-size: 60px;
+    -webkit-text-stroke: 1px #808080;
+  }
+}
+
+/* Large devices (desktops) */
+@media only screen and (min-width: 1025px) {
+  .text-outline {
+    color: transparent;
+    font-size: 100px;
+    -webkit-text-stroke: 1px #808080;
+  }
+}
