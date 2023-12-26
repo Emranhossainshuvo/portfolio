@@ -105,7 +105,6 @@ const Projects = () => {
           <title>Shuvo | Projects</title>
         </Helmet> */}
 
-        <h2>My projects will show here</h2>
       </div>
       {/* <Footer></Footer> */}
     </>

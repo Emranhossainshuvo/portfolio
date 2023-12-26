@@ -4,6 +4,7 @@ import Footer from "../../Shared/Footer/Footer";
 import Banner from '../Banner/Banner'
 import Skills from "../Skills/Skills";
 import Projects from "../../Projects/Projects";
+import Resume from "../../Resume/Resume";
 
 const Home = () => {
     return (
@@ -15,6 +16,7 @@ const Home = () => {
             {/* <AdminInfo></AdminInfo> */}
             <Skills></Skills>
             <Projects></Projects>
+            <Resume></Resume>
             <Footer></Footer>
         </div>
     );
