@@ -1,17 +1,17 @@
-import { FaLongArrowAltLeft } from "react-icons/fa";
-import { Link } from "react-router-dom";
+// import { FaLongArrowAltLeft } from "react-icons/fa";
+// import { Link } from "react-router-dom";
 import AdminDetail from "../Home/AdminDetail/AdminDetail";
-import Footer from "../Shared/Footer/Footer";
-import { Helmet } from "react-helmet-async";
+// import Footer from "../Shared/Footer/Footer";
+// import { Helmet } from "react-helmet-async";
 const About = () => {
   return (
     <div>
       
-      <Helmet>
+      {/* <Helmet>
         <title>
           Shuvo | About
         </title>
-      </Helmet>
+      </Helmet> */}
       <AdminDetail></AdminDetail>
       {/* <Footer></Footer> */}
     </div>

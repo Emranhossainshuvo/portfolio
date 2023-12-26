@@ -10,11 +10,11 @@ const Resume = () => {
   return (
     <>
       <div className="pt-3 w-full mt-5 md:max-w-screen-2xl md:mx-auto flex justify-between">
-        <Helmet>
+        {/* <Helmet>
           <title>
             Shuvo | Resume
           </title>
-        </Helmet>
+        </Helmet> */}
         <Link to="/">
           <FaLongArrowAltLeft className="bg-[#A9A9A9] w-10 text-[#808080] h-10 rounded-full p-2"></FaLongArrowAltLeft>
         </Link>
