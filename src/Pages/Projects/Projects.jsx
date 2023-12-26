@@ -1,9 +1,5 @@
-import { FaLongArrowAltLeft } from "react-icons/fa";
-import { Link } from "react-router-dom";
 import "./projects.css";
-import Footer from "../Shared/Footer/Footer";
 import "aos/dist/aos.css";
-import { Helmet } from "react-helmet-async";
 
 
 
@@ -14,20 +10,7 @@ const Projects = () => {
   return (
     <>
       <div className="max-w-screen-2xl mx-auto">
-        <div className="pt-3 w-full mt-5 md:max-w-screen-2xl md:mx-auto flex justify-between">
-          <Link to="/">
-            <FaLongArrowAltLeft className="bg-[#A9A9A9] w-10 text-[#808080] h-10 rounded-full p-2"></FaLongArrowAltLeft>
-          </Link>
-          <ul className="md:flex mr-2 ms-2 gap-1 md:gap-8">
-            <li className="text-lg font-semibold">Projects</li>
-            <Link to="/about">
-              <li className="text-lg font-semibold">About</li>
-            </Link>
-            <Link to="/resume">
-              <li className="text-lg font-semibold">Resume</li>
-            </Link>
-          </ul>
-        </div>
+        
 
         {/* navbar ends */}
 
@@ -118,13 +101,13 @@ const Projects = () => {
             <p>Yoga and fitness</p>
           </div>
         </div>
-        <Helmet>
+        {/* <Helmet>
           <title>Shuvo | Projects</title>
-        </Helmet>
+        </Helmet> */}
 
         <h2>My projects will show here</h2>
       </div>
-      <Footer></Footer>
+      {/* <Footer></Footer> */}
     </>
   );
 };
