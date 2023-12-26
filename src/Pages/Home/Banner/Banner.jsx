@@ -1,5 +1,6 @@
 import bannerImg from "../../../assets/IMG_20231209_083938-removebg.png";
-import Navbar from "../../Shared/Navbar/Navbar";
+import About from "../../About/About";
+// import Navbar from "../../Shared/Navbar/Navbar";
 import "aos/dist/aos.css";
 
 const Banner = () => {
@@ -34,6 +35,7 @@ const Banner = () => {
           </p>
         </div>
       </div>
+      <About></About>
     </>
   );
 };

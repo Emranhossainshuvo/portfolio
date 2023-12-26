@@ -3,7 +3,7 @@ import 'aos/dist/aos.css';
 
 const DetailText = () => {
   return (
-    <div className="flex mt-16 flex-col-reverse justify-center items-center md:flex-row md:h-[80vh] max-w-screen-xl mx-auto">
+    <div className="flex flex-col-reverse  mt-16 md:flex-row-reverse justify-center items-center md:h-[80vh] max-w-screen-2xl mx-auto">
       <div  data-aos="fade-up" className="w-full md:w-[50%] md:pr-8">
         <h3 className="text-4xl ps-4 font-semibold mb-4 text-[#333333]">
           Hi, I am Shuvo.
@@ -15,8 +15,8 @@ const DetailText = () => {
         </p>
       </div>
       <img data-aos="zoom-in"
-        className="w-full px-2 rounded-md md:w-[50%] h-[300px] md:h-auto object-cover shadow-lg mb-8 md:mb-0"
-        src="https://i.ibb.co/p1Smwjf/7200953-30756.jpg"
+        className="w-full px-2 md:w-[50%] h-[300px] md:h-auto object-cover mb-8 md:mb-0"
+        src="https://i.ibb.co/LQGDdbT/technology-removebg-preview.png"
         alt=""
       />
     </div>

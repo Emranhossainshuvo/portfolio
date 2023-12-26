@@ -11,7 +11,7 @@ const Home = () => {
                 <title>Shuvo | Home</title>
             </Helmet>
             <Banner />
-            <AdminInfo></AdminInfo>
+            {/* <AdminInfo></AdminInfo> */}
             <Skills></Skills>
             <Footer></Footer>
         </div>
