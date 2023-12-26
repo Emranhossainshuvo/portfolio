@@ -14,9 +14,9 @@ const Banner = () => {
             alt=""
           />
         </div>
-        <div className="max-w-[40%]">
-          <h1 className="text-4xl  mb-4 font-semibold">Hi, I'm <span className="text-[#F54200]">Md. Emran Hossain</span> </h1>
-          <p className="text-lg font-semibold mb-5 text-justify">
+        <div data-aos="fade-up" className="md:max-w-[40%] p-2 mx-auto mt-5 ">
+          <h1 data-aos="fade-up" className="text-4xl  mb-4 font-semibold">Hi, I'm <span className="text-[#F54200]">Md. Emran Hossain</span> </h1>
+          <p data-aos="fade-up" className="text-lg font-semibold mb-5 text-justify">
             I'm a junior full stack developer.I build fully functional interactive full stack web applications. I am very much interested in technology world since I just knew about it. I choose web development because I think I can learn with fun many things in this field and I can show my telent in visual content. 
             I am currently working on my{" "}
             <a
@@ -29,7 +29,7 @@ const Banner = () => {
             project. An online-based language learning app.
           
           </p>
-          <p className="text-lg font-semibold text-justify">
+          <p data-aos="fade-up" className="text-lg font-semibold text-justify">
             I'm from Chnadpur Bangladesh, although I'm currently living in Dhaka Bangladesh. I'm studying Geography and Environment for my BSc at Government Titumir College.
           </p>
         </div>
