@@ -4,7 +4,7 @@ const Navbar = () => {
     const [theme, setTheme] = useState(false);
 
     const handleTheme = () => {
-        setTheme(!theme); 
+        setTheme(!theme);
     }
 
     return (
@@ -16,7 +16,7 @@ const Navbar = () => {
                     </p>
                 </div>
                 <div>
-                    <span onClick={handleTheme} className=" w-4">{theme ? <i className="fa-regular fa-sun"></i>: <i className="fa-regular fa-moon"></i>}</span>
+                    <span onClick={handleTheme} className="w-32">{theme ? <i className="fa-regular fa-sun"></i> : <i className="fa-regular fa-moon"></i>}</span>
                 </div>
             </div>
         </>
