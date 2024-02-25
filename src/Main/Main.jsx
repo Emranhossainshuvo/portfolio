@@ -5,7 +5,7 @@ const Main = () => {
     return (
         <>
         <Home></Home>
-            <Outlet></Outlet>
+        <Outlet></Outlet>
         </>
     );
 };
