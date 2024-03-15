@@ -7,5 +7,7 @@ import Main from "../Main/Main";
     {
       path: "/",
       element: <Main></Main>,
+      children: [
+      ]
     },
   ]);
